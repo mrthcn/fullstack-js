@@ -1,0 +1,53 @@
+body {
+  background-color: aliceblue;
+}
+
+p.main strong a {
+  color: blue;
+}
+
+p strong a {
+  color: rgb(0, 255, 13);
+}
+
+p a {
+  color: brown;
+}
+
+p.main > a {
+  font-size: 15px;
+  color: rgb(10, 10, 10);
+  background-color: rgb(235, 10, 10);
+}
+
+p.main b + a {
+  font-size: 15px;
+  color: rgb(106, 214, 106);
+  background: rgb(78, 8, 55);
+}
+
+p.main b ~ a {
+  font-size: 15px;
+  color: rgb(253, 191, 225);
+  background: rgb(86, 76, 133);
+}
+
+div[class*="col"] {
+  background-color: red;
+}
+
+span#identified {
+  background-color: DodgerBlue;
+}
+
+p.main em + a[href^="http"] {
+  font-size: 20px;
+  color: green;
+  background: yellow;
+}
+
+p.main em > a[href$=".jpg"] {
+  font-size: 20px;
+  color: green;
+  background: yellow;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <p class="main">
+    <strong>
+      <a href="">застосовується для тегів a, класу main, вкладенних у strong, вага 13</a>
+    </strong>
+  </p>
+
+  <p>
+    <strong>
+      <a href="">застосовується для тегів a, вкладенних у strong, вага 3</a>
+    </strong>
+  </p>
+
+  <p>
+    <a href="">застосовується для всіх тегів a, вага 2</a>
+  </p>
+
+  <p class="main">
+    <a href="">застосовується для тегів a, класу main, першого рівня, вага 12</a>
+  </p>
+
+  <p class="main">
+    <b></b>
+    <a href="">застосовується тільки для першого тегу a, класу main, котрий йде після тегу b, вага 13</a>
+  </p>
+
+  <p class="main">
+    <b></b>
+    <a href="">застосовується для всіх тегів a, класу main, котрі йдуть після тегу b, вага 13</a>
+  </p>
+
+  <div class="collection">
+    для кожного тега div, кожного класу де міститься col, вага 11
+  </div>
+
+  <span id="identified">застосовується для тегу span,з атребутом id</span>
+  <span> вага 101</span>
+
+  <p class="main">
+    <em></em>
+    <a href="">застосовується тільки для першого тегу a, класу main, котрий йде після тегу em, пошук на початку рядка
+      значення атрибута, вага 13</a>
+  </p>
+
+  <p class="main">
+    <em></em>
+    <a href="">застосовується для тегів a, класу main, першого рівня, пошук у кінці рядка значення атрибута, вага 13</a>
+  </p>
+
+</body>
+
+</html>
