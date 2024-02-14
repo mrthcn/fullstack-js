@@ -46,8 +46,6 @@ p.main em + a[href^="http"] {
   background: yellow;
 }
 
-p.main em > a[href$=".jpg"] {
-  font-size: 20px;
-  color: green;
-  background: yellow;
+div ul li:last-child {
+  background-color: chocolate;
 }
